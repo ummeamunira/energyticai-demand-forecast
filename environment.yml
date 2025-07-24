@@ -13,3 +13,4 @@ dependencies:
   - statsmodels
   - shap
   - openpyxl
+  - holidays
