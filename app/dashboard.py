@@ -15,7 +15,7 @@ This dashboard shows forecasted electricity demand using historical trends and m
 """)
 
 # Plot forecast
-fig = px.line(forecast_df, y='forecast', title='Forecasted Demand (MW)')
+fig = px.line(forecast_df, y='Forecasted Power Demand', title='Forecasted Demand (MW)')
 st.plotly_chart(fig, use_container_width=True)
 
 # Display data
